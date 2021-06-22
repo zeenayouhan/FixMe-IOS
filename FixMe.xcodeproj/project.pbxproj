@@ -15,6 +15,9 @@
 		2FCDFBD02681E2B300E27976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDFBCE2681E2B300E27976 /* LaunchScreen.storyboard */; };
 		2FCDFBDB2681E2B300E27976 /* FixMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCDFBDA2681E2B300E27976 /* FixMeTests.swift */; };
 		2FCDFBE62681E2B300E27976 /* FixMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCDFBE52681E2B300E27976 /* FixMeUITests.swift */; };
+		2FCDFBF42681E30B00E27976 /* Screenshot 2021-06-22 at 14.35.56.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDFBF32681E30B00E27976 /* Screenshot 2021-06-22 at 14.35.56.png */; };
+		2FCDFBF62681E3BD00E27976 /* Screenshot 2021-06-22 at 14.53.19.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDFBF52681E3BD00E27976 /* Screenshot 2021-06-22 at 14.53.19.png */; };
+		2FCDFBF82681E89500E27976 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDFBF72681E89500E27976 /* Map.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		2FCDFBE12681E2B300E27976 /* FixMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FCDFBE52681E2B300E27976 /* FixMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixMeUITests.swift; sourceTree = "<group>"; };
 		2FCDFBE72681E2B300E27976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCDFBF32681E30B00E27976 /* Screenshot 2021-06-22 at 14.35.56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2021-06-22 at 14.35.56.png"; path = "../../../../../Desktop/Screenshot 2021-06-22 at 14.35.56.png"; sourceTree = "<group>"; };
+		2FCDFBF52681E3BD00E27976 /* Screenshot 2021-06-22 at 14.53.19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2021-06-22 at 14.53.19.png"; path = "../../../../../Desktop/Screenshot 2021-06-22 at 14.53.19.png"; sourceTree = "<group>"; };
+		2FCDFBF72681E89500E27976 /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,16 @@
 		2FCDFBC22681E2B200E27976 /* FixMe */ = {
 			isa = PBXGroup;
 			children = (
+				2FCDFBF32681E30B00E27976 /* Screenshot 2021-06-22 at 14.35.56.png */,
 				2FCDFBC32681E2B200E27976 /* AppDelegate.swift */,
 				2FCDFBC52681E2B200E27976 /* SceneDelegate.swift */,
 				2FCDFBC72681E2B200E27976 /* ViewController.swift */,
+				2FCDFBF52681E3BD00E27976 /* Screenshot 2021-06-22 at 14.53.19.png */,
 				2FCDFBC92681E2B200E27976 /* Main.storyboard */,
 				2FCDFBCC2681E2B300E27976 /* Assets.xcassets */,
 				2FCDFBCE2681E2B300E27976 /* LaunchScreen.storyboard */,
 				2FCDFBD12681E2B300E27976 /* Info.plist */,
+				2FCDFBF72681E89500E27976 /* Map.storyboard */,
 			);
 			path = FixMe;
 			sourceTree = "<group>";
@@ -231,9 +240,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FCDFBF42681E30B00E27976 /* Screenshot 2021-06-22 at 14.35.56.png in Resources */,
 				2FCDFBD02681E2B300E27976 /* LaunchScreen.storyboard in Resources */,
 				2FCDFBCD2681E2B300E27976 /* Assets.xcassets in Resources */,
+				2FCDFBF62681E3BD00E27976 /* Screenshot 2021-06-22 at 14.53.19.png in Resources */,
 				2FCDFBCB2681E2B200E27976 /* Main.storyboard in Resources */,
+				2FCDFBF82681E89500E27976 /* Map.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
