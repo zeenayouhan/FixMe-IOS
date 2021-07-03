@@ -7,68 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FCDFBC42681E2B200E27976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCDFBC32681E2B200E27976 /* AppDelegate.swift */; };
-		2FCDFBC62681E2B200E27976 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCDFBC52681E2B200E27976 /* SceneDelegate.swift */; };
-		2FCDFBC82681E2B200E27976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCDFBC72681E2B200E27976 /* ViewController.swift */; };
-		2FCDFBCB2681E2B200E27976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDFBC92681E2B200E27976 /* Main.storyboard */; };
-		2FCDFBCD2681E2B300E27976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDFBCC2681E2B300E27976 /* Assets.xcassets */; };
-		2FCDFBD02681E2B300E27976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDFBCE2681E2B300E27976 /* LaunchScreen.storyboard */; };
-		2FCDFBDB2681E2B300E27976 /* FixMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCDFBDA2681E2B300E27976 /* FixMeTests.swift */; };
-		2FCDFBE62681E2B300E27976 /* FixMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCDFBE52681E2B300E27976 /* FixMeUITests.swift */; };
+		2F041FF02690CED10025171A /* FixMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F041FEF2690CED10025171A /* FixMeApp.swift */; };
+		2F041FF22690CED10025171A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F041FF12690CED10025171A /* ContentView.swift */; };
+		2F041FF42690CED20025171A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F041FF32690CED20025171A /* Assets.xcassets */; };
+		2F041FF72690CED20025171A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F041FF62690CED20025171A /* Preview Assets.xcassets */; };
+		2F0420022690CED30025171A /* FixMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0420012690CED30025171A /* FixMeTests.swift */; };
+		2F04200D2690CED30025171A /* FixMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F04200C2690CED30025171A /* FixMeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2FCDFBD72681E2B300E27976 /* PBXContainerItemProxy */ = {
+		2F041FFE2690CED30025171A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2FCDFBB82681E2B200E27976 /* Project object */;
+			containerPortal = 2F041FE42690CED10025171A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2FCDFBBF2681E2B200E27976;
+			remoteGlobalIDString = 2F041FEB2690CED10025171A;
 			remoteInfo = FixMe;
 		};
-		2FCDFBE22681E2B300E27976 /* PBXContainerItemProxy */ = {
+		2F0420092690CED30025171A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2FCDFBB82681E2B200E27976 /* Project object */;
+			containerPortal = 2F041FE42690CED10025171A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2FCDFBBF2681E2B200E27976;
+			remoteGlobalIDString = 2F041FEB2690CED10025171A;
 			remoteInfo = FixMe;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2FCDFBC02681E2B200E27976 /* FixMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FixMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FCDFBC32681E2B200E27976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FCDFBC52681E2B200E27976 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2FCDFBC72681E2B200E27976 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2FCDFBCA2681E2B200E27976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2FCDFBCC2681E2B300E27976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2FCDFBCF2681E2B300E27976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2FCDFBD12681E2B300E27976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FCDFBD62681E2B300E27976 /* FixMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FCDFBDA2681E2B300E27976 /* FixMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixMeTests.swift; sourceTree = "<group>"; };
-		2FCDFBDC2681E2B300E27976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FCDFBE12681E2B300E27976 /* FixMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FCDFBE52681E2B300E27976 /* FixMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixMeUITests.swift; sourceTree = "<group>"; };
-		2FCDFBE72681E2B300E27976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FCDFBFF26823C2E00E27976 /* Screenshot 2021-06-22 at 14.35.56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-06-22 at 14.35.56.png"; sourceTree = "<group>"; };
-		2FCDFC0026823C3200E27976 /* Screenshot 2021-06-22 at 14.35.56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2021-06-22 at 14.35.56.png"; path = "../../../../../../../Desktop/Screenshot 2021-06-22 at 14.35.56.png"; sourceTree = "<group>"; };
+		2F041FEC2690CED10025171A /* FixMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FixMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F041FEF2690CED10025171A /* FixMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixMeApp.swift; sourceTree = "<group>"; };
+		2F041FF12690CED10025171A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F041FF32690CED20025171A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F041FF62690CED20025171A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F041FF82690CED20025171A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F041FFD2690CED30025171A /* FixMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0420012690CED30025171A /* FixMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixMeTests.swift; sourceTree = "<group>"; };
+		2F0420032690CED30025171A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F0420082690CED30025171A /* FixMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F04200C2690CED30025171A /* FixMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixMeUITests.swift; sourceTree = "<group>"; };
+		2F04200E2690CED30025171A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F04201E2690CF600025171A /* aws.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aws.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2FCDFBBD2681E2B200E27976 /* Frameworks */ = {
+		2F041FE92690CED10025171A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FCDFBD32681E2B300E27976 /* Frameworks */ = {
+		2F041FFA2690CED30025171A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FCDFBDE2681E2B300E27976 /* Frameworks */ = {
+		2F0420052690CED30025171A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,118 +73,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2FCDFBB72681E2B200E27976 = {
+		2F041FE32690CED10025171A = {
 			isa = PBXGroup;
 			children = (
-				2FCDFBC22681E2B200E27976 /* FixMe */,
-				2FCDFBD92681E2B300E27976 /* FixMeTests */,
-				2FCDFBE42681E2B300E27976 /* FixMeUITests */,
-				2FCDFBC12681E2B200E27976 /* Products */,
+				2F041FEE2690CED10025171A /* FixMe */,
+				2F0420002690CED30025171A /* FixMeTests */,
+				2F04200B2690CED30025171A /* FixMeUITests */,
+				2F041FED2690CED10025171A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2FCDFBC12681E2B200E27976 /* Products */ = {
+		2F041FED2690CED10025171A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2FCDFBC02681E2B200E27976 /* FixMe.app */,
-				2FCDFBD62681E2B300E27976 /* FixMeTests.xctest */,
-				2FCDFBE12681E2B300E27976 /* FixMeUITests.xctest */,
+				2F041FEC2690CED10025171A /* FixMe.app */,
+				2F041FFD2690CED30025171A /* FixMeTests.xctest */,
+				2F0420082690CED30025171A /* FixMeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2FCDFBC22681E2B200E27976 /* FixMe */ = {
+		2F041FEE2690CED10025171A /* FixMe */ = {
 			isa = PBXGroup;
 			children = (
-				2FCDFC0426823CED00E27976 /* Controllers */,
-				2FCDFC0326823CC300E27976 /* ViewModels */,
-				2FCDFC0226823CAE00E27976 /* Views */,
-				2FCDFC0126823C6A00E27976 /* Resources */,
-				2FCDFBCC2681E2B300E27976 /* Assets.xcassets */,
-				2FCDFBD12681E2B300E27976 /* Info.plist */,
+				2F041FEF2690CED10025171A /* FixMeApp.swift */,
+				2F041FF12690CED10025171A /* ContentView.swift */,
+				2F041FF32690CED20025171A /* Assets.xcassets */,
+				2F041FF82690CED20025171A /* Info.plist */,
+				2F041FF52690CED20025171A /* Preview Content */,
 			);
 			path = FixMe;
 			sourceTree = "<group>";
 		};
-		2FCDFBD92681E2B300E27976 /* FixMeTests */ = {
+		2F041FF52690CED20025171A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				2FCDFBDA2681E2B300E27976 /* FixMeTests.swift */,
-				2FCDFBDC2681E2B300E27976 /* Info.plist */,
+				2F04201E2690CF600025171A /* aws.png */,
+				2F041FF62690CED20025171A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F0420002690CED30025171A /* FixMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F0420012690CED30025171A /* FixMeTests.swift */,
+				2F0420032690CED30025171A /* Info.plist */,
 			);
 			path = FixMeTests;
 			sourceTree = "<group>";
 		};
-		2FCDFBE42681E2B300E27976 /* FixMeUITests */ = {
+		2F04200B2690CED30025171A /* FixMeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2FCDFBE52681E2B300E27976 /* FixMeUITests.swift */,
-				2FCDFBE72681E2B300E27976 /* Info.plist */,
+				2F04200C2690CED30025171A /* FixMeUITests.swift */,
+				2F04200E2690CED30025171A /* Info.plist */,
 			);
 			path = FixMeUITests;
-			sourceTree = "<group>";
-		};
-		2FCDFBFD26823C0D00E27976 /* StoryBoards */ = {
-			isa = PBXGroup;
-			children = (
-				2FCDFBFE26823C1C00E27976 /* LaunchScreen */,
-				2FCDFBC92681E2B200E27976 /* Main.storyboard */,
-			);
-			path = StoryBoards;
-			sourceTree = "<group>";
-		};
-		2FCDFBFE26823C1C00E27976 /* LaunchScreen */ = {
-			isa = PBXGroup;
-			children = (
-				2FCDFBFF26823C2E00E27976 /* Screenshot 2021-06-22 at 14.35.56.png */,
-				2FCDFBCE2681E2B300E27976 /* LaunchScreen.storyboard */,
-				2FCDFC0026823C3200E27976 /* Screenshot 2021-06-22 at 14.35.56.png */,
-			);
-			path = LaunchScreen;
-			sourceTree = "<group>";
-		};
-		2FCDFC0126823C6A00E27976 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2FCDFBC52681E2B200E27976 /* SceneDelegate.swift */,
-				2FCDFBC32681E2B200E27976 /* AppDelegate.swift */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		2FCDFC0226823CAE00E27976 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				2FCDFBFD26823C0D00E27976 /* StoryBoards */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		2FCDFC0326823CC300E27976 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		2FCDFC0426823CED00E27976 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				2FCDFBC72681E2B200E27976 /* ViewController.swift */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2FCDFBBF2681E2B200E27976 /* FixMe */ = {
+		2F041FEB2690CED10025171A /* FixMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FCDFBEA2681E2B300E27976 /* Build configuration list for PBXNativeTarget "FixMe" */;
+			buildConfigurationList = 2F0420112690CED30025171A /* Build configuration list for PBXNativeTarget "FixMe" */;
 			buildPhases = (
-				2FCDFBBC2681E2B200E27976 /* Sources */,
-				2FCDFBBD2681E2B200E27976 /* Frameworks */,
-				2FCDFBBE2681E2B200E27976 /* Resources */,
+				2F041FE82690CED10025171A /* Sources */,
+				2F041FE92690CED10025171A /* Frameworks */,
+				2F041FEA2690CED10025171A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -197,68 +149,68 @@
 			);
 			name = FixMe;
 			productName = FixMe;
-			productReference = 2FCDFBC02681E2B200E27976 /* FixMe.app */;
+			productReference = 2F041FEC2690CED10025171A /* FixMe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2FCDFBD52681E2B300E27976 /* FixMeTests */ = {
+		2F041FFC2690CED30025171A /* FixMeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FCDFBED2681E2B300E27976 /* Build configuration list for PBXNativeTarget "FixMeTests" */;
+			buildConfigurationList = 2F0420142690CED30025171A /* Build configuration list for PBXNativeTarget "FixMeTests" */;
 			buildPhases = (
-				2FCDFBD22681E2B300E27976 /* Sources */,
-				2FCDFBD32681E2B300E27976 /* Frameworks */,
-				2FCDFBD42681E2B300E27976 /* Resources */,
+				2F041FF92690CED30025171A /* Sources */,
+				2F041FFA2690CED30025171A /* Frameworks */,
+				2F041FFB2690CED30025171A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2FCDFBD82681E2B300E27976 /* PBXTargetDependency */,
+				2F041FFF2690CED30025171A /* PBXTargetDependency */,
 			);
 			name = FixMeTests;
 			productName = FixMeTests;
-			productReference = 2FCDFBD62681E2B300E27976 /* FixMeTests.xctest */;
+			productReference = 2F041FFD2690CED30025171A /* FixMeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2FCDFBE02681E2B300E27976 /* FixMeUITests */ = {
+		2F0420072690CED30025171A /* FixMeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FCDFBF02681E2B300E27976 /* Build configuration list for PBXNativeTarget "FixMeUITests" */;
+			buildConfigurationList = 2F0420172690CED30025171A /* Build configuration list for PBXNativeTarget "FixMeUITests" */;
 			buildPhases = (
-				2FCDFBDD2681E2B300E27976 /* Sources */,
-				2FCDFBDE2681E2B300E27976 /* Frameworks */,
-				2FCDFBDF2681E2B300E27976 /* Resources */,
+				2F0420042690CED30025171A /* Sources */,
+				2F0420052690CED30025171A /* Frameworks */,
+				2F0420062690CED30025171A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2FCDFBE32681E2B300E27976 /* PBXTargetDependency */,
+				2F04200A2690CED30025171A /* PBXTargetDependency */,
 			);
 			name = FixMeUITests;
 			productName = FixMeUITests;
-			productReference = 2FCDFBE12681E2B300E27976 /* FixMeUITests.xctest */;
+			productReference = 2F0420082690CED30025171A /* FixMeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2FCDFBB82681E2B200E27976 /* Project object */ = {
+		2F041FE42690CED10025171A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					2FCDFBBF2681E2B200E27976 = {
+					2F041FEB2690CED10025171A = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					2FCDFBD52681E2B300E27976 = {
+					2F041FFC2690CED30025171A = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 2FCDFBBF2681E2B200E27976;
+						TestTargetID = 2F041FEB2690CED10025171A;
 					};
-					2FCDFBE02681E2B300E27976 = {
+					2F0420072690CED30025171A = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 2FCDFBBF2681E2B200E27976;
+						TestTargetID = 2F041FEB2690CED10025171A;
 					};
 				};
 			};
-			buildConfigurationList = 2FCDFBBB2681E2B200E27976 /* Build configuration list for PBXProject "FixMe" */;
+			buildConfigurationList = 2F041FE72690CED10025171A /* Build configuration list for PBXProject "FixMe" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -266,37 +218,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 2FCDFBB72681E2B200E27976;
-			productRefGroup = 2FCDFBC12681E2B200E27976 /* Products */;
+			mainGroup = 2F041FE32690CED10025171A;
+			productRefGroup = 2F041FED2690CED10025171A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2FCDFBBF2681E2B200E27976 /* FixMe */,
-				2FCDFBD52681E2B300E27976 /* FixMeTests */,
-				2FCDFBE02681E2B300E27976 /* FixMeUITests */,
+				2F041FEB2690CED10025171A /* FixMe */,
+				2F041FFC2690CED30025171A /* FixMeTests */,
+				2F0420072690CED30025171A /* FixMeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2FCDFBBE2681E2B200E27976 /* Resources */ = {
+		2F041FEA2690CED10025171A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FCDFBD02681E2B300E27976 /* LaunchScreen.storyboard in Resources */,
-				2FCDFBCD2681E2B300E27976 /* Assets.xcassets in Resources */,
-				2FCDFBCB2681E2B200E27976 /* Main.storyboard in Resources */,
+				2F041FF72690CED20025171A /* Preview Assets.xcassets in Resources */,
+				2F041FF42690CED20025171A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FCDFBD42681E2B300E27976 /* Resources */ = {
+		2F041FFB2690CED30025171A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FCDFBDF2681E2B300E27976 /* Resources */ = {
+		2F0420062690CED30025171A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,69 +257,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2FCDFBBC2681E2B200E27976 /* Sources */ = {
+		2F041FE82690CED10025171A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FCDFBC82681E2B200E27976 /* ViewController.swift in Sources */,
-				2FCDFBC42681E2B200E27976 /* AppDelegate.swift in Sources */,
-				2FCDFBC62681E2B200E27976 /* SceneDelegate.swift in Sources */,
+				2F041FF22690CED10025171A /* ContentView.swift in Sources */,
+				2F041FF02690CED10025171A /* FixMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FCDFBD22681E2B300E27976 /* Sources */ = {
+		2F041FF92690CED30025171A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FCDFBDB2681E2B300E27976 /* FixMeTests.swift in Sources */,
+				2F0420022690CED30025171A /* FixMeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FCDFBDD2681E2B300E27976 /* Sources */ = {
+		2F0420042690CED30025171A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FCDFBE62681E2B300E27976 /* FixMeUITests.swift in Sources */,
+				2F04200D2690CED30025171A /* FixMeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2FCDFBD82681E2B300E27976 /* PBXTargetDependency */ = {
+		2F041FFF2690CED30025171A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2FCDFBBF2681E2B200E27976 /* FixMe */;
-			targetProxy = 2FCDFBD72681E2B300E27976 /* PBXContainerItemProxy */;
+			target = 2F041FEB2690CED10025171A /* FixMe */;
+			targetProxy = 2F041FFE2690CED30025171A /* PBXContainerItemProxy */;
 		};
-		2FCDFBE32681E2B300E27976 /* PBXTargetDependency */ = {
+		2F04200A2690CED30025171A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2FCDFBBF2681E2B200E27976 /* FixMe */;
-			targetProxy = 2FCDFBE22681E2B300E27976 /* PBXContainerItemProxy */;
+			target = 2F041FEB2690CED10025171A /* FixMe */;
+			targetProxy = 2F0420092690CED30025171A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		2FCDFBC92681E2B200E27976 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FCDFBCA2681E2B200E27976 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-			usesTabs = 0;
-		};
-		2FCDFBCE2681E2B300E27976 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FCDFBCF2681E2B300E27976 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		2FCDFBE82681E2B300E27976 /* Debug */ = {
+		2F04200F2690CED30025171A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -429,7 +359,7 @@
 			};
 			name = Debug;
 		};
-		2FCDFBE92681E2B300E27976 /* Release */ = {
+		2F0420102690CED30025171A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -484,13 +414,16 @@
 			};
 			name = Release;
 		};
-		2FCDFBEB2681E2B300E27976 /* Debug */ = {
+		2F0420122690CED30025171A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FixMe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FixMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -502,13 +435,16 @@
 			};
 			name = Debug;
 		};
-		2FCDFBEC2681E2B300E27976 /* Release */ = {
+		2F0420132690CED30025171A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FixMe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FixMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -520,14 +456,14 @@
 			};
 			name = Release;
 		};
-		2FCDFBEE2681E2B300E27976 /* Debug */ = {
+		2F0420152690CED30025171A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FixMeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -541,14 +477,14 @@
 			};
 			name = Debug;
 		};
-		2FCDFBEF2681E2B300E27976 /* Release */ = {
+		2F0420162690CED30025171A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FixMeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -562,7 +498,7 @@
 			};
 			name = Release;
 		};
-		2FCDFBF12681E2B300E27976 /* Debug */ = {
+		2F0420182690CED30025171A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -581,7 +517,7 @@
 			};
 			name = Debug;
 		};
-		2FCDFBF22681E2B300E27976 /* Release */ = {
+		2F0420192690CED30025171A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -603,43 +539,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2FCDFBBB2681E2B200E27976 /* Build configuration list for PBXProject "FixMe" */ = {
+		2F041FE72690CED10025171A /* Build configuration list for PBXProject "FixMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FCDFBE82681E2B300E27976 /* Debug */,
-				2FCDFBE92681E2B300E27976 /* Release */,
+				2F04200F2690CED30025171A /* Debug */,
+				2F0420102690CED30025171A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FCDFBEA2681E2B300E27976 /* Build configuration list for PBXNativeTarget "FixMe" */ = {
+		2F0420112690CED30025171A /* Build configuration list for PBXNativeTarget "FixMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FCDFBEB2681E2B300E27976 /* Debug */,
-				2FCDFBEC2681E2B300E27976 /* Release */,
+				2F0420122690CED30025171A /* Debug */,
+				2F0420132690CED30025171A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FCDFBED2681E2B300E27976 /* Build configuration list for PBXNativeTarget "FixMeTests" */ = {
+		2F0420142690CED30025171A /* Build configuration list for PBXNativeTarget "FixMeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FCDFBEE2681E2B300E27976 /* Debug */,
-				2FCDFBEF2681E2B300E27976 /* Release */,
+				2F0420152690CED30025171A /* Debug */,
+				2F0420162690CED30025171A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FCDFBF02681E2B300E27976 /* Build configuration list for PBXNativeTarget "FixMeUITests" */ = {
+		2F0420172690CED30025171A /* Build configuration list for PBXNativeTarget "FixMeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FCDFBF12681E2B300E27976 /* Debug */,
-				2FCDFBF22681E2B300E27976 /* Release */,
+				2F0420182690CED30025171A /* Debug */,
+				2F0420192690CED30025171A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2FCDFBB82681E2B200E27976 /* Project object */;
+	rootObject = 2F041FE42690CED10025171A /* Project object */;
 }
