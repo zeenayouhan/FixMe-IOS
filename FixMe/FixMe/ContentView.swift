@@ -7,27 +7,51 @@
 
 import SwiftUI
 
+struct LabelStyle : ViewModifier {
+    func body(content : Content) ->  some View{
+        return content.background(Color.white).foregroundColor(.green).clipShape(Capsule())
+    }
+}
+struct ButtonStyle : ViewModifier {
+    func body(content : Content) ->  some View{
+        return content.padding(.horizontal, 30.0).padding(.vertical, 5)
+    }
+}
+
 
 struct ContentView: View {
     var body: some View {
+        NavigationView{
         VStack {
+            Spacer()
             HStack{
                 Spacer()
                 Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("සිංහල").padding(.horizontal, 30.0).padding(.vertical, 5)
-                }.background(Color.white).foregroundColor(.green).clipShape(Capsule())
+                    Text("සිංහල").modifier(ButtonStyle())
+                }.modifier(LabelStyle())
                 Spacer()
                 Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("English").padding(.horizontal, 30.0).padding(.vertical, 5)
-                }.background(Color.white).foregroundColor(.green).clipShape(Capsule())
+                    Text("English").modifier(ButtonStyle())
+                }.modifier(LabelStyle())
+
                 Spacer()
                 Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("தமிழ்").padding(.horizontal, 30.0).padding(.vertical, 5)
-                }.background(Color.white).foregroundColor(.green).clipShape(Capsule())
+                    Text("தமிழ்").modifier(ButtonStyle())
+                }.modifier(LabelStyle())
+
                 Spacer()
-            }
+            }.padding(.top, 200)
+            Spacer()
+            Button(action: {}, label: {
+                    NavigationLink(destination: Login()) {
+                        Text("Next")
+                    }
+                })
+            
+            Spacer()
         }
         .background(Image("back"))
+        }
     }
 }
 

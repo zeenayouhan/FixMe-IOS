@@ -13,7 +13,7 @@
 		2F041FF72690CED20025171A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F041FF62690CED20025171A /* Preview Assets.xcassets */; };
 		2F0420022690CED30025171A /* FixMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0420012690CED30025171A /* FixMeTests.swift */; };
 		2F04200D2690CED30025171A /* FixMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F04200C2690CED30025171A /* FixMeUITests.swift */; };
-		2F0420202690DC6E0025171A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F04201F2690DC6E0025171A /* Launch Screen.storyboard */; };
+		2FF3256F269853C600773C2E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF3256E269853C600773C2E /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 		2F0420082690CED30025171A /* FixMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F04200C2690CED30025171A /* FixMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixMeUITests.swift; sourceTree = "<group>"; };
 		2F04200E2690CED30025171A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F04201F2690DC6E0025171A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2FF3256E269853C600773C2E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 				2F041FF32690CED20025171A /* Assets.xcassets */,
 				2F041FF82690CED20025171A /* Info.plist */,
 				2F041FF52690CED20025171A /* Preview Content */,
-				2F04201F2690DC6E0025171A /* Launch Screen.storyboard */,
+				2FF3256E269853C600773C2E /* Login.swift */,
 			);
 			path = FixMe;
 			sourceTree = "<group>";
@@ -236,7 +236,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F0420202690DC6E0025171A /* Launch Screen.storyboard in Resources */,
 				2F041FF72690CED20025171A /* Preview Assets.xcassets in Resources */,
 				2F041FF42690CED20025171A /* Assets.xcassets in Resources */,
 			);
@@ -263,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF3256F269853C600773C2E /* Login.swift in Sources */,
 				2F041FF22690CED10025171A /* ContentView.swift in Sources */,
 				2F041FF02690CED10025171A /* FixMeApp.swift in Sources */,
 			);

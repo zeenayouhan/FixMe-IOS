@@ -30,7 +30,7 @@
 	<key>UILaunchScreen</key>
 	<dict>
 		<key>UIImageName</key>
-		<string>aws.png</string>
+		<string>launch</string>
 	</dict>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
