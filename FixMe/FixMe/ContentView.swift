@@ -24,8 +24,10 @@ struct ContentView: View {
         NavigationView{
         VStack {
             Spacer()
+            Text("Choose a language").padding(.top, 180).font(.system(size: 22))
             HStack{
                 Spacer()
+                
                 Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("සිංහල").modifier(ButtonStyle())
                 }.modifier(LabelStyle())
@@ -40,15 +42,17 @@ struct ContentView: View {
                 }.modifier(LabelStyle())
 
                 Spacer()
-            }.padding(.top, 200)
+            }.padding(.top,10)
             Spacer()
             Button(action: {}, label: {
                     NavigationLink(destination: Login()) {
-                        Text("Next")
+                        Text("->")
+                            .background(Color.yellow).foregroundColor(.white).clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/).font(.system(size: 25)).padding(.bottom, 100 )
                     }
                 })
             
             Spacer()
+            
         }
         .background(Image("back"))
         }
