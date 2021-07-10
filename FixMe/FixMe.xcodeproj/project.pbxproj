@@ -13,6 +13,8 @@
 		2F041FF72690CED20025171A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F041FF62690CED20025171A /* Preview Assets.xcassets */; };
 		2F0420022690CED30025171A /* FixMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0420012690CED30025171A /* FixMeTests.swift */; };
 		2F04200D2690CED30025171A /* FixMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F04200C2690CED30025171A /* FixMeUITests.swift */; };
+		2F6388A02699F25F005944FC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63889F2699F25F005944FC /* LoginViewModel.swift */; };
+		2F6388A32699FAF4005944FC /* CountriesCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6388A22699FAF4005944FC /* CountriesCode.swift */; };
 		2FF3256F269853C600773C2E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF3256E269853C600773C2E /* Login.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,8 @@
 		2F0420082690CED30025171A /* FixMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F04200C2690CED30025171A /* FixMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixMeUITests.swift; sourceTree = "<group>"; };
 		2F04200E2690CED30025171A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F63889F2699F25F005944FC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		2F6388A22699FAF4005944FC /* CountriesCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesCode.swift; sourceTree = "<group>"; };
 		2FF3256E269853C600773C2E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,12 +101,14 @@
 		2F041FEE2690CED10025171A /* FixMe */ = {
 			isa = PBXGroup;
 			children = (
+				2F6388A12699FABB005944FC /* Model */,
+				2F63889E2699F1BC005944FC /* ViewModel */,
+				2F63889D2699F1B1005944FC /* View */,
 				2F041FEF2690CED10025171A /* FixMeApp.swift */,
 				2F041FF12690CED10025171A /* ContentView.swift */,
 				2F041FF32690CED20025171A /* Assets.xcassets */,
 				2F041FF82690CED20025171A /* Info.plist */,
 				2F041FF52690CED20025171A /* Preview Content */,
-				2FF3256E269853C600773C2E /* Login.swift */,
 			);
 			path = FixMe;
 			sourceTree = "<group>";
@@ -131,6 +137,30 @@
 				2F04200E2690CED30025171A /* Info.plist */,
 			);
 			path = FixMeUITests;
+			sourceTree = "<group>";
+		};
+		2F63889D2699F1B1005944FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FF3256E269853C600773C2E /* Login.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F63889E2699F1BC005944FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2F63889F2699F25F005944FC /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2F6388A12699FABB005944FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F6388A22699FAF4005944FC /* CountriesCode.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +292,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F6388A02699F25F005944FC /* LoginViewModel.swift in Sources */,
+				2F6388A32699FAF4005944FC /* CountriesCode.swift in Sources */,
 				2FF3256F269853C600773C2E /* Login.swift in Sources */,
 				2F041FF22690CED10025171A /* ContentView.swift in Sources */,
 				2F041FF02690CED10025171A /* FixMeApp.swift in Sources */,
