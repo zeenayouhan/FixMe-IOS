@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct Login: View {
-    @State private var phoneNumber: String = ""
-    @State private var pcode: String = " 94"
+   
+    
     @StateObject var loginData = LoginViewModel()
     var body: some View {
         
@@ -31,17 +31,20 @@ struct Login: View {
                     }
                     
                     Spacer(minLength: 0)
-                    Button(action: {}) {
+                    NavigationLink(
+                        destination: Verification(loginData: loginData)){
+                       
+                   
                         Text("Continue")
                             .foregroundColor(.black)
                             .padding(.vertical,18)
                             .padding(.horizontal, 38)
                             .background(Color.yellow)
                             .cornerRadius(15)
-                    }
+                    
                     .disabled(loginData.phoneNumber == "" ? true: false)
                     
-                }
+                    }}
                 .padding(8)
                 .background(Color.white)
                 .cornerRadius(15)
