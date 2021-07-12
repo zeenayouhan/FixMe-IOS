@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,7 +16,14 @@
 		2F6388A02699F25F005944FC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63889F2699F25F005944FC /* LoginViewModel.swift */; };
 		2F6388A32699FAF4005944FC /* CountriesCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6388A22699FAF4005944FC /* CountriesCode.swift */; };
 		2FC2B859269C23B10074906E /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC2B858269C23B10074906E /* Verification.swift */; };
+		2FC2B85B269C3E540074906E /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC2B85A269C3E540074906E /* NumberPad.swift */; };
+		2FC2B85D269C4A290074906E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FC2B85C269C4A290074906E /* GoogleService-Info.plist */; };
+		2FDC498F269C835D005A4F23 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC498E269C835D005A4F23 /* AlertView.swift */; };
+		2FDC4991269CA534005A4F23 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC4990269CA534005A4F23 /* Home.swift */; };
 		2FF3256F269853C600773C2E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF3256E269853C600773C2E /* Login.swift */; };
+		36C827B73193845ABA5BAD16 /* Pods_FixMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4A353B4FFD1EC231AD9C2D /* Pods_FixMeTests.framework */; };
+		CE76054A8E886DD925DEF8CF /* Pods_FixMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1157F33DB1328BA92B2DAD4 /* Pods_FixMe.framework */; };
+		D90E9532776B017D5D11DEC6 /* Pods_FixMe_FixMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577A374AFBDD26BA3B70419C /* Pods_FixMe_FixMeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +59,20 @@
 		2F63889F2699F25F005944FC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		2F6388A22699FAF4005944FC /* CountriesCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesCode.swift; sourceTree = "<group>"; };
 		2FC2B858269C23B10074906E /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		2FC2B85A269C3E540074906E /* NumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
+		2FC2B85C269C4A290074906E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2FDC498E269C835D005A4F23 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		2FDC4990269CA534005A4F23 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		2FF3256E269853C600773C2E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		4D4A353B4FFD1EC231AD9C2D /* Pods_FixMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FixMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		508B41FE4302654FDF0E3BBA /* Pods-FixMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FixMe.release.xcconfig"; path = "Target Support Files/Pods-FixMe/Pods-FixMe.release.xcconfig"; sourceTree = "<group>"; };
+		54B4E689F1BD1A6D12086501 /* Pods-FixMe-FixMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FixMe-FixMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-FixMe-FixMeUITests/Pods-FixMe-FixMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		577A374AFBDD26BA3B70419C /* Pods_FixMe_FixMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FixMe_FixMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64552FEF12A9BB4FEA2F505A /* Pods-FixMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FixMe.debug.xcconfig"; path = "Target Support Files/Pods-FixMe/Pods-FixMe.debug.xcconfig"; sourceTree = "<group>"; };
+		7CB482B696F41FAF2431FA4C /* Pods-FixMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FixMeTests.debug.xcconfig"; path = "Target Support Files/Pods-FixMeTests/Pods-FixMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1157F33DB1328BA92B2DAD4 /* Pods_FixMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FixMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8467BE1E45DAE3029FF8865 /* Pods-FixMe-FixMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FixMe-FixMeUITests.release.xcconfig"; path = "Target Support Files/Pods-FixMe-FixMeUITests/Pods-FixMe-FixMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FB8F95D5E34FBACA4EBD89B2 /* Pods-FixMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FixMeTests.release.xcconfig"; path = "Target Support Files/Pods-FixMeTests/Pods-FixMeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE76054A8E886DD925DEF8CF /* Pods_FixMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C827B73193845ABA5BAD16 /* Pods_FixMeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90E9532776B017D5D11DEC6 /* Pods_FixMe_FixMeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EF290A852CD3C060C6D224F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1157F33DB1328BA92B2DAD4 /* Pods_FixMe.framework */,
+				577A374AFBDD26BA3B70419C /* Pods_FixMe_FixMeUITests.framework */,
+				4D4A353B4FFD1EC231AD9C2D /* Pods_FixMeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2F041FE32690CED10025171A = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +120,8 @@
 				2F0420002690CED30025171A /* FixMeTests */,
 				2F04200B2690CED30025171A /* FixMeUITests */,
 				2F041FED2690CED10025171A /* Products */,
+				3F74CCBFFE6201E0BB991446 /* Pods */,
+				0EF290A852CD3C060C6D224F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,7 +143,9 @@
 				2F63889D2699F1B1005944FC /* View */,
 				2F041FEF2690CED10025171A /* FixMeApp.swift */,
 				2F041FF12690CED10025171A /* ContentView.swift */,
+				2FDC4990269CA534005A4F23 /* Home.swift */,
 				2F041FF32690CED20025171A /* Assets.xcassets */,
+				2FC2B85C269C4A290074906E /* GoogleService-Info.plist */,
 				2F041FF82690CED20025171A /* Info.plist */,
 				2F041FF52690CED20025171A /* Preview Content */,
 			);
@@ -146,6 +183,8 @@
 			children = (
 				2FF3256E269853C600773C2E /* Login.swift */,
 				2FC2B858269C23B10074906E /* Verification.swift */,
+				2FC2B85A269C3E540074906E /* NumberPad.swift */,
+				2FDC498E269C835D005A4F23 /* AlertView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -166,6 +205,19 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		3F74CCBFFE6201E0BB991446 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64552FEF12A9BB4FEA2F505A /* Pods-FixMe.debug.xcconfig */,
+				508B41FE4302654FDF0E3BBA /* Pods-FixMe.release.xcconfig */,
+				54B4E689F1BD1A6D12086501 /* Pods-FixMe-FixMeUITests.debug.xcconfig */,
+				F8467BE1E45DAE3029FF8865 /* Pods-FixMe-FixMeUITests.release.xcconfig */,
+				7CB482B696F41FAF2431FA4C /* Pods-FixMeTests.debug.xcconfig */,
+				FB8F95D5E34FBACA4EBD89B2 /* Pods-FixMeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F0420112690CED30025171A /* Build configuration list for PBXNativeTarget "FixMe" */;
 			buildPhases = (
+				45A265BC900E626FE198B615 /* [CP] Check Pods Manifest.lock */,
 				2F041FE82690CED10025171A /* Sources */,
 				2F041FE92690CED10025171A /* Frameworks */,
 				2F041FEA2690CED10025171A /* Resources */,
+				320865CFD64F0CB8CD9B7300 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F0420142690CED30025171A /* Build configuration list for PBXNativeTarget "FixMeTests" */;
 			buildPhases = (
+				8DCF3FCBF26329B131ACE9E9 /* [CP] Check Pods Manifest.lock */,
 				2F041FF92690CED30025171A /* Sources */,
 				2F041FFA2690CED30025171A /* Frameworks */,
 				2F041FFB2690CED30025171A /* Resources */,
@@ -208,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F0420172690CED30025171A /* Build configuration list for PBXNativeTarget "FixMeUITests" */;
 			buildPhases = (
+				553D090B51733BB6BBCEDED6 /* [CP] Check Pods Manifest.lock */,
 				2F0420042690CED30025171A /* Sources */,
 				2F0420052690CED30025171A /* Frameworks */,
 				2F0420062690CED30025171A /* Resources */,
+				4E8A4578497E95D25E0C7B10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,6 +328,7 @@
 			files = (
 				2F041FF72690CED20025171A /* Preview Assets.xcassets in Resources */,
 				2F041FF42690CED20025171A /* Assets.xcassets in Resources */,
+				2FC2B85D269C4A290074906E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +348,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		320865CFD64F0CB8CD9B7300 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FixMe/Pods-FixMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FixMe/Pods-FixMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FixMe/Pods-FixMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45A265BC900E626FE198B615 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FixMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E8A4578497E95D25E0C7B10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FixMe-FixMeUITests/Pods-FixMe-FixMeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FixMe-FixMeUITests/Pods-FixMe-FixMeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FixMe-FixMeUITests/Pods-FixMe-FixMeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		553D090B51733BB6BBCEDED6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FixMe-FixMeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DCF3FCBF26329B131ACE9E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FixMeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F041FE82690CED10025171A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -298,7 +459,10 @@
 				2FC2B859269C23B10074906E /* Verification.swift in Sources */,
 				2F6388A02699F25F005944FC /* LoginViewModel.swift in Sources */,
 				2F6388A32699FAF4005944FC /* CountriesCode.swift in Sources */,
+				2FC2B85B269C3E540074906E /* NumberPad.swift in Sources */,
+				2FDC4991269CA534005A4F23 /* Home.swift in Sources */,
 				2FF3256F269853C600773C2E /* Login.swift in Sources */,
+				2FDC498F269C835D005A4F23 /* AlertView.swift in Sources */,
 				2F041FF22690CED10025171A /* ContentView.swift in Sources */,
 				2F041FF02690CED10025171A /* FixMeApp.swift in Sources */,
 			);
@@ -454,6 +618,7 @@
 		};
 		2F0420122690CED30025171A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64552FEF12A9BB4FEA2F505A /* Pods-FixMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +640,7 @@
 		};
 		2F0420132690CED30025171A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 508B41FE4302654FDF0E3BBA /* Pods-FixMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -496,6 +662,7 @@
 		};
 		2F0420152690CED30025171A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB482B696F41FAF2431FA4C /* Pods-FixMeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +684,7 @@
 		};
 		2F0420162690CED30025171A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8F95D5E34FBACA4EBD89B2 /* Pods-FixMeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,6 +706,7 @@
 		};
 		2F0420182690CED30025171A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B4E689F1BD1A6D12086501 /* Pods-FixMe-FixMeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -557,6 +726,7 @@
 		};
 		2F0420192690CED30025171A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8467BE1E45DAE3029FF8865 /* Pods-FixMe-FixMeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
