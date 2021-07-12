@@ -39,6 +39,7 @@ struct Login: View {
                             .background(Color.yellow)
                             .cornerRadius(15)
                     }
+                    .disabled(loginData.phoneNumber == "" ? true: false)
                     
                 }
                 .padding(8)
@@ -52,7 +53,7 @@ struct Login: View {
                     VStack{
                         LazyVGrid(columns: Array(repeating: GridItem(.flexible(),spacing: 20), count:3), spacing: 15){
                             ForEach(rows,id: \.self){
-                                value in Button(action: {}) {
+                                value in Button(action: {buttonAction(value: value)}) {
                                     ZStack{
                                         if value == "delete.left" {
                                             Image(systemName: value)
@@ -92,8 +93,14 @@ struct Login: View {
                 
                 return actualHeight / 4
             }
-        
-        
+    func buttonAction(value: String){
+        if value == "delete.left" && loginData.phoneNumber != "" {
+            loginData.phoneNumber.removeLast()
+        }
+        if value != "delete.left" {
+            loginData.phoneNumber.append(value)
+        }
+    }
     
 }
 
