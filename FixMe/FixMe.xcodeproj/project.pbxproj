@@ -13,6 +13,8 @@
 		2F041FF72690CED20025171A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F041FF62690CED20025171A /* Preview Assets.xcassets */; };
 		2F0420022690CED30025171A /* FixMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0420012690CED30025171A /* FixMeTests.swift */; };
 		2F04200D2690CED30025171A /* FixMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F04200C2690CED30025171A /* FixMeUITests.swift */; };
+		2F366FC226A938790044A931 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F366FC126A938790044A931 /* Register.swift */; };
+		2F366FC426A941EE0044A931 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F366FC326A941EE0044A931 /* RegisterViewModel.swift */; };
 		2F6388A02699F25F005944FC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63889F2699F25F005944FC /* LoginViewModel.swift */; };
 		2F6388A32699FAF4005944FC /* CountriesCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6388A22699FAF4005944FC /* CountriesCode.swift */; };
 		2FC2B859269C23B10074906E /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC2B858269C23B10074906E /* Verification.swift */; };
@@ -56,6 +58,8 @@
 		2F0420082690CED30025171A /* FixMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F04200C2690CED30025171A /* FixMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixMeUITests.swift; sourceTree = "<group>"; };
 		2F04200E2690CED30025171A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F366FC126A938790044A931 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		2F366FC326A941EE0044A931 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		2F63889F2699F25F005944FC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		2F6388A22699FAF4005944FC /* CountriesCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesCode.swift; sourceTree = "<group>"; };
 		2FC2B858269C23B10074906E /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
@@ -178,13 +182,30 @@
 			path = FixMeUITests;
 			sourceTree = "<group>";
 		};
+		2F366FBF26A9381E0044A931 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2FDC498E269C835D005A4F23 /* AlertView.swift */,
+				2FC2B85A269C3E540074906E /* NumberPad.swift */,
+				2FC2B858269C23B10074906E /* Verification.swift */,
+				2FF3256E269853C600773C2E /* Login.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2F366FC026A938370044A931 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				2F366FC126A938790044A931 /* Register.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
 		2F63889D2699F1B1005944FC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2FF3256E269853C600773C2E /* Login.swift */,
-				2FC2B858269C23B10074906E /* Verification.swift */,
-				2FC2B85A269C3E540074906E /* NumberPad.swift */,
-				2FDC498E269C835D005A4F23 /* AlertView.swift */,
+				2F366FC026A938370044A931 /* Register */,
+				2F366FBF26A9381E0044A931 /* Login */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				2F63889F2699F25F005944FC /* LoginViewModel.swift */,
+				2F366FC326A941EE0044A931 /* RegisterViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -460,6 +482,8 @@
 				2F6388A02699F25F005944FC /* LoginViewModel.swift in Sources */,
 				2F6388A32699FAF4005944FC /* CountriesCode.swift in Sources */,
 				2FC2B85B269C3E540074906E /* NumberPad.swift in Sources */,
+				2F366FC426A941EE0044A931 /* RegisterViewModel.swift in Sources */,
+				2F366FC226A938790044A931 /* Register.swift in Sources */,
 				2FDC4991269CA534005A4F23 /* Home.swift in Sources */,
 				2FF3256F269853C600773C2E /* Login.swift in Sources */,
 				2FDC498F269C835D005A4F23 /* AlertView.swift in Sources */,

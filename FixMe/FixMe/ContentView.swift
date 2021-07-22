@@ -26,7 +26,7 @@ struct ContentView: View {
         ZStack{
             if status{
                 VStack(spacing : 1){
-                    Home()
+                    Register()
                 }
             }
             else{
