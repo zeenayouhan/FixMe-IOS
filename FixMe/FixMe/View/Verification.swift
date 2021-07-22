@@ -71,7 +71,7 @@ struct Verification: View {
             .background(Color.white)
             .cornerRadius(20)
                 
-            NumberPad(value: $loginData.code, isVerify: true)
+                NumberPad(value: $loginData.code, isVerify: true).background(Color.black.opacity(0.3))
         }
             .background(Color("bg").ignoresSafeArea(.all, edges: /*@START_MENU_TOKEN@*/.bottom/*@END_MENU_TOKEN@*/))
             if loginData.error{

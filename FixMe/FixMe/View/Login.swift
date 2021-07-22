@@ -55,7 +55,7 @@ struct Login: View {
                     
                     Text("Don't have an account? create account                  ")
                     Text("Privacy Policy                                                             ")
-                    NumberPad(value: $loginData.phoneNumber, isVerify: false)
+                NumberPad(value: $loginData.phoneNumber, isVerify: false).background(Color.black.opacity(0.3))
                     
             }.background(Image("back")).ignoresSafeArea(.all, edges: .bottom)
             if loginData.error{

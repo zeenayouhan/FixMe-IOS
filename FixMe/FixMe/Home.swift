@@ -13,14 +13,17 @@ struct Home: View {
     
     var body: some View {
         
-        ZStack{
+        ZStack(alignment: .center){
             if status{
-                VStack(spacing : 15){
-                    Text("Logged in Succesfully")
+                VStack(spacing : 1){
+                    
+                    Spacer()
+                    Text("Stay Safe , Safety Drive")
                         .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                         .fontWeight(.heavy)
                         .foregroundColor(.black)
-                    
+                        
+                    Spacer()
                     Button(action: {
                         //try Auth.auth().signOut()
                         withAnimation{ status = false}
@@ -36,8 +39,10 @@ struct Home: View {
                     Login()
                 }
             }
-        }
+        }.background(        LinearGradient(gradient: Gradient(colors: [.blue, .white]), startPoint: .top, endPoint: .bottom)
+        )
     }
+    
 }
 
 struct Home_Previews: PreviewProvider {

@@ -10,7 +10,7 @@ import Firebase
 
 struct LabelStyle : ViewModifier {
     func body(content : Content) ->  some View{
-        return content.background(Color.white).foregroundColor(.green).clipShape(Capsule())
+        return content.foregroundColor(.green).clipShape(Capsule())
     }
 }
 struct ButtonStyle : ViewModifier {
@@ -25,20 +25,8 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             if status{
-                VStack(spacing : 15){
-                    Text("Logged in Succesfully")
-                        .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                        .fontWeight(.heavy)
-                        .foregroundColor(.black)
-                    
-                    Button(action: {
-                        //try Auth.auth().signOut()
-                        withAnimation{ status = false}
-                        
-                    }) {
-                        
-                        Text("Log Out").fontWeight(.heavy)
-                    }
+                VStack(spacing : 1){
+                    Home()
                 }
             }
             else{
@@ -51,28 +39,29 @@ struct ContentView: View {
                     
                                     Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
                                         Text("සිංහල").modifier(ButtonStyle())
-                                    }.modifier(LabelStyle())
+                                    }.background(Color.white).modifier(LabelStyle())
                                     Spacer()
                                     Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
                                         Text("English").modifier(ButtonStyle())
-                                    }.modifier(LabelStyle())
+                                    }.background(Color.black).modifier(LabelStyle())
                     
                                     Spacer()
                                     Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
                                         Text("தமிழ்").modifier(ButtonStyle())
-                                    }.modifier(LabelStyle())
+                                    }.background(Color.white).modifier(LabelStyle())
                     
                                     Spacer()
                                 }.padding(.top,10)
-                                Spacer()
+                        Spacer()
                                 Button(action: {}, label: {
                                         NavigationLink(destination: Login()) {
-                                            Text("->")
-                                                .background(Color.yellow).foregroundColor(.white).clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/).font(.system(size: 25)).padding(.bottom, 100 )
+                                            Image(systemName: "arrow.right").resizable().scaledToFit()
+                                                .frame(width: 30, height: 30)
+                                                .background(Color.black).foregroundColor(.orange).shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/).clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/).font(.system(size: 20))
                                         }
                                     })
                     
-                                Spacer()
+                        Spacer().frame(width: 10, height: 180, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     
                             }
                             .background(Image("back"))
