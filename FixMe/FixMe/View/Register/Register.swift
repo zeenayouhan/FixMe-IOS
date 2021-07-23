@@ -7,83 +7,43 @@
 
 import SwiftUI
 
+struct TextFieldStyle : ViewModifier {
+    func body(content : Content) ->  some View{
+        return content.background(Color.orange.opacity(0.1))
+            .padding(10)
+            .background(Color.white)
+            .cornerRadius(15)
+    }
+}
 struct Register: View {
+    @State private var userType = ""
     @StateObject var registerData = RegisterViewModel()
     var body: some View {
-        VStack{
-        VStack{
-            HStack{
-                VStack(alignment: .leading, spacing: 6) {
-                    
-                    Text("First Name")
-                        .font(.caption)
-                        .foregroundColor(.gray)
-                    
-                    Text("\(registerData.firstName) ")
-                        .font(.title)
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(.black)
-                    
-                    
-                }
+        NavigationView{
+            
+            Form{
+                TextField("FirstName", text : $registerData.firstName)
+                TextField("LastName", text : $registerData.lastName)
+                TextField("CountryCode", text : $registerData.countryCode)
+                TextField("PhoneNumber", text : $registerData.phoneNumber)
+                TextField("Email", text : $registerData.email)
                 
-                Spacer(minLength: 0)
-                
-                
-                }.background(Color.orange.opacity(0.1))
-            .padding(15)
-            .background(Color.white)
-            .cornerRadius(15)
-        }
-        VStack{
-            HStack{
-                VStack(alignment: .leading, spacing: 6) {
-                    
-                    Text("Last Name")
-                        .font(.caption)
-                        .foregroundColor(.gray)
-                    
-                    Text("\(registerData.lastName) ")
-                        .font(.title)
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(.black)
-                    
-                    
-                }
-                
-                Spacer(minLength: 0)
-                
-                
-                }.background(Color.orange.opacity(0.1))
-            .padding(15)
-            .background(Color.white)
-            .cornerRadius(15)
-        }
-            VStack{
-                HStack{
-                    VStack(alignment: .leading, spacing: 6) {
-                        
-                        Text("PhoneNumber")
-                            .font(.caption)
-                            .foregroundColor(.gray)
-                        
-                        Text("\(registerData.phoneNumber) ")
-                            .font(.title)
-                            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                            .foregroundColor(.black)
-                        
-                        
+                Picker(selection: $userType, label: Text("UserType")){
+                    ForEach(UserType.usertypes, id: \.self){
+                        userType in
+                        Text(userType).tag(userType)
                     }
                     
-                    Spacer(minLength: 0)
-                    
-                    
-                    }.background(Color.orange.opacity(0.1))
-                .padding(15)
-                .background(Color.white)
-                .cornerRadius(15)
-            }
+                }
+                Spacer().frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Text("Submit")
+                        
+                })
+            }.navigationBarTitle("SignUp")
+            
         }
+        
     }
 }
 

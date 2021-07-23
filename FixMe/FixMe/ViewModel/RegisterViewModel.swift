@@ -10,7 +10,10 @@ import SwiftUI
 class RegisterViewModel: ObservableObject{
     @Published var firstName = ""
     @Published var lastName  = ""
+    @Published var countryCode = ""
     @Published var phoneNumber = ""
     @Published var userType = ""
+    @Published var email = ""
+    
 }
 

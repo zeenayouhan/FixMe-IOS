@@ -22,6 +22,8 @@
 		2FC2B85D269C4A290074906E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FC2B85C269C4A290074906E /* GoogleService-Info.plist */; };
 		2FDC498F269C835D005A4F23 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC498E269C835D005A4F23 /* AlertView.swift */; };
 		2FDC4991269CA534005A4F23 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC4990269CA534005A4F23 /* Home.swift */; };
+		2FE3E7FB26AA7FA2004D5E03 /* KeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3E7FA26AA7FA2004D5E03 /* KeyPad.swift */; };
+		2FE3E7FF26AA8615004D5E03 /* UserTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE3E7FE26AA8615004D5E03 /* UserTypes.swift */; };
 		2FF3256F269853C600773C2E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF3256E269853C600773C2E /* Login.swift */; };
 		36C827B73193845ABA5BAD16 /* Pods_FixMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4A353B4FFD1EC231AD9C2D /* Pods_FixMeTests.framework */; };
 		CE76054A8E886DD925DEF8CF /* Pods_FixMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1157F33DB1328BA92B2DAD4 /* Pods_FixMe.framework */; };
@@ -67,6 +69,8 @@
 		2FC2B85C269C4A290074906E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2FDC498E269C835D005A4F23 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		2FDC4990269CA534005A4F23 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2FE3E7FA26AA7FA2004D5E03 /* KeyPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPad.swift; sourceTree = "<group>"; };
+		2FE3E7FE26AA8615004D5E03 /* UserTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTypes.swift; sourceTree = "<group>"; };
 		2FF3256E269853C600773C2E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		4D4A353B4FFD1EC231AD9C2D /* Pods_FixMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FixMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		508B41FE4302654FDF0E3BBA /* Pods-FixMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FixMe.release.xcconfig"; path = "Target Support Files/Pods-FixMe/Pods-FixMe.release.xcconfig"; sourceTree = "<group>"; };
@@ -197,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				2F366FC126A938790044A931 /* Register.swift */,
+				2FE3E7FA26AA7FA2004D5E03 /* KeyPad.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -222,9 +227,26 @@
 		2F6388A12699FABB005944FC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2F6388A22699FAF4005944FC /* CountriesCode.swift */,
+				2FE3E7FD26AA85EB004D5E03 /* LoginModel */,
+				2FE3E7FC26AA85DF004D5E03 /* RegisterModel */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2FE3E7FC26AA85DF004D5E03 /* RegisterModel */ = {
+			isa = PBXGroup;
+			children = (
+				2FE3E7FE26AA8615004D5E03 /* UserTypes.swift */,
+			);
+			path = RegisterModel;
+			sourceTree = "<group>";
+		};
+		2FE3E7FD26AA85EB004D5E03 /* LoginModel */ = {
+			isa = PBXGroup;
+			children = (
+				2F6388A22699FAF4005944FC /* CountriesCode.swift */,
+			);
+			path = LoginModel;
 			sourceTree = "<group>";
 		};
 		3F74CCBFFE6201E0BB991446 /* Pods */ = {
@@ -479,9 +501,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FC2B859269C23B10074906E /* Verification.swift in Sources */,
+				2FE3E7FB26AA7FA2004D5E03 /* KeyPad.swift in Sources */,
 				2F6388A02699F25F005944FC /* LoginViewModel.swift in Sources */,
 				2F6388A32699FAF4005944FC /* CountriesCode.swift in Sources */,
 				2FC2B85B269C3E540074906E /* NumberPad.swift in Sources */,
+				2FE3E7FF26AA8615004D5E03 /* UserTypes.swift in Sources */,
 				2F366FC426A941EE0044A931 /* RegisterViewModel.swift in Sources */,
 				2F366FC226A938790044A931 /* Register.swift in Sources */,
 				2FDC4991269CA534005A4F23 /* Home.swift in Sources */,
